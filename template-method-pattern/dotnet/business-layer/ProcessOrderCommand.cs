@@ -21,7 +21,7 @@ namespace com.opusmagus
             bool isValid = orderService.ValidateOrder(order);
             if (isValid)
             {
-                bool paymentCompleted = paymentService.processPayment(order);
+                bool paymentCompleted = paymentService.ProcessPayment(order);
                 if (paymentCompleted)
                     orderService.shipOrder(order);
                 else

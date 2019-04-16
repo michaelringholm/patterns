@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/template-method-pattern-console/template-method-pattern-console.csproj"
+                "${workspaceFolder}/console/console.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/template-method-pattern-console/template-method-pattern-console.csproj"
+                "${workspaceFolder}/console/console.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/template-method-pattern-console/template-method-pattern-console.csproj"
+                "${workspaceFolder}/console/console.csproj"
             ],
             "problemMatcher": "$tsc"
         }
